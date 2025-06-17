@@ -7,7 +7,15 @@ export default defineConfig({
     environment: 'node', // or 'jsdom' if you test browser-specific features
     coverage: {
       provider: 'v8', // or 'istanbul'
-      reporter: ['text', 'json', 'html'],
+      reporter: ['text', 'json', 'html', 'lcov'],
+      exclude: [ // Add this section to exclude folders
+        '**/__benchmark__/**',
+        '**/docs/**', 
+        '**/*.config.{js,ts,cjs,mjs}', // Exclude config files
+        '**/dist/**', // Exclude build output
+        '**/node_modules/**', 
+        ".prettierrc.cjs"
+      ],
     },
   },
   plugins: [tsconfigPaths()],

@@ -1,0 +1,12 @@
+.git/
+.gitignore
+node_modules/
+src/     # if you're publishing compiled JS from 'dist'
+test/
+*.log
+*.env
+.DS_Store
+*.swp
+coverage/
+docs/
+.github/
