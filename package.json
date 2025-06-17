@@ -1,5 +1,5 @@
 {
-  "name": "rpool",
+  "name": "ropool",
   "version": "1.0.1",
   "description": "A simple and efficient object pool for JavaScript and TypeScript.",
   "type": "module",

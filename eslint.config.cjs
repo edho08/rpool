@@ -36,6 +36,8 @@ module.exports = tseslint.config(
     rules: {
       // Add any project-specific rules here, overriding or extending the recommended set
       // e.g., "@typescript-eslint/no-explicit-any": "warn",
+      '@typescript-eslint/no-explicit-any': 'off', // Turn off the rule
+
     },
   },
 

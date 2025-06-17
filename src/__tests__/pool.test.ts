@@ -5,7 +5,6 @@ import {
   expect,
   beforeEach,
   afterEach,
-  beforeAll,
   vi,
   type MockInstance,
 } from 'vitest';
@@ -278,6 +277,8 @@ describe('ObjectPool & ObjectHandle Comprehensive Tests', () => {
       const pool = new ObjectPool(createTestObject, 3); // size 3
       const h1 = pool.acquire(); // obj 0
       const h2 = pool.acquire(); // obj 1
+
+      h2.data.userModified = true; // Modify;
 
       h1.free(); // obj 0 back
 

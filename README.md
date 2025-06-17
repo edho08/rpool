@@ -1,13 +1,13 @@
-# rpool - Object Pooling Library
+# ropool - Object Pooling Library
 
-[![NPM version](https://img.shields.io/npm/v/rpool.svg?style=flat)](https://www.npmjs.com/package/rpool)
+[![NPM version](https://img.shields.io/npm/v/ropool.svg?style=flat)](https://www.npmjs.com/package/ropool)
 [![Tests](https://img.shields.io/github/actions/workflow/status/edho08/rpool/test.yml?branch=main&style=flat)](https://github.com/edho08/rpool/actions/workflows/test.yml)
 [![Coverage Status](https://img.shields.io/coveralls/github/edho08/rpool/main.svg?style=flat)](https://coveralls.io/github/edho08/rpool?branch=main)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 A simple and efficient object pool for JavaScript and TypeScript.
 
-`rpool` helps manage object lifecycles, reducing the overhead of frequent object creation and garbage collection, which can be beneficial for performance-sensitive applications.
+`ropool` helps manage object lifecycles, reducing the overhead of frequent object creation and garbage collection, which can be beneficial for performance-sensitive applications.
 
 ## Features
 
@@ -19,7 +19,7 @@ A simple and efficient object pool for JavaScript and TypeScript.
 ## Installation
 
 ```bash
-npm install rpool
+npm install ropool
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ npm install rpool
 ### Basic Example
 
 ```typescript
-import { ObjectPool } from 'rpool';
+import { ObjectPool } from 'ropool';
 
 interface Vector2 {
   x: number;
@@ -74,7 +74,7 @@ console.log('All objects released.');
 If your environment supports `Symbol.dispose` (e.g., Node.js 20+, or TypeScript with appropriate `target` and `lib` settings), you can use the `using` keyword for automatic cleanup.
 
 ```typescript
-import { ObjectPool } from 'rpool';
+import { ObjectPool } from 'ropool';
 
 const createObj = () => ({ message: 'hello' });
 const pool = new ObjectPool(createObj);
