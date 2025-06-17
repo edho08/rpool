@@ -1,0 +1,10 @@
+{
+  "entryPoints": ["./src"],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "name": "rpool",
+  "navigation": {
+    "includeFolders": true
+  },
+  "exclude": ["**/__tests__/**/*", "**/__benchmark__/**/*"]
+}

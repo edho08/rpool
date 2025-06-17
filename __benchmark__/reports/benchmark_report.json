@@ -1,0 +1,164 @@
+[
+  {
+    "suite": "pool",
+    "name": "SimplePool (Size 16) - Acquire/Free Single",
+    "hz": 68112107.5108933,
+    "rme": 4.372231533087254,
+    "size": 77,
+    "mean": 1.468167755402471e-8,
+    "variance": 8.259167045111341e-18
+  },
+  {
+    "suite": "pool",
+    "name": "SimplePool (Size 1024) - Acquire/Free Single",
+    "hz": 59443057.72156984,
+    "rme": 5.087578368982937,
+    "size": 67,
+    "mean": 1.6822822350155354e-8,
+    "variance": 1.2775638128098058e-17
+  },
+  {
+    "suite": "pool",
+    "name": "SimplePool (Size 10000) - Acquire/Free Single",
+    "hz": 61743153.333983995,
+    "rme": 5.4639561256880045,
+    "size": 72,
+    "mean": 1.6196127764818757e-8,
+    "variance": 1.4677670997798043e-17
+  },
+  {
+    "suite": "pool",
+    "name": "SimplePool (Size 65000) - Acquire/Free Single",
+    "hz": 74016068.17332177,
+    "rme": 3.3313173843979484,
+    "size": 79,
+    "mean": 1.3510579860285505e-8,
+    "variance": 4.165766745062003e-18
+  },
+  {
+    "suite": "pool",
+    "name": "SimplePool (Size 1024) - Acquire/Free 1024 (LIFO)",
+    "hz": 85614.54532307007,
+    "rme": 3.138100185710317,
+    "size": 80,
+    "mean": 0.000011680258257828248,
+    "variance": 2.7977979282924467e-12
+  },
+  {
+    "suite": "pool",
+    "name": "SimplePool (Size 1024) - Acquire/Free 1024 (FIFO)",
+    "hz": 87721.72646758203,
+    "rme": 3.6418759960719562,
+    "size": 78,
+    "mean": 0.000011399684437008368,
+    "variance": 3.4996001572220528e-12
+  },
+  {
+    "suite": "pool",
+    "name": "SimplePool (Size 1024) - Acquire/Free 1024 (Interleaved)",
+    "hz": 53796.410285708385,
+    "rme": 2.2978718215644305,
+    "size": 84,
+    "mean": 0.000018588600887848853,
+    "variance": 3.989441931462649e-12
+  },
+  {
+    "suite": "pool",
+    "name": "SimplePool (Size 1024) - Acquire 1024 / ReleaseAll",
+    "hz": 93299.44349575897,
+    "rme": 2.4782473827659492,
+    "size": 82,
+    "mean": 0.000010718177542457218,
+    "variance": 1.5060275461480741e-12
+  },
+  {
+    "suite": "pool",
+    "name": "ComplexPool (Size 16) - Acquire/Free Single",
+    "hz": 72970497.09233662,
+    "rme": 3.060186237114475,
+    "size": 78,
+    "mean": 1.3704168668806014e-8,
+    "variance": 3.570948325623482e-18
+  },
+  {
+    "suite": "pool",
+    "name": "ComplexPool (Size 1024) - Acquire/Free Single",
+    "hz": 71518820.66504563,
+    "rme": 3.754565097919117,
+    "size": 76,
+    "mean": 1.3982333471121448e-8,
+    "variance": 5.452303694423656e-18
+  },
+  {
+    "suite": "pool",
+    "name": "ComplexPool (Size 10000) - Acquire/Free Single",
+    "hz": 69319053.84162496,
+    "rme": 4.068582482002917,
+    "size": 76,
+    "mean": 1.4426048028363543e-8,
+    "variance": 6.815260283114183e-18
+  },
+  {
+    "suite": "pool",
+    "name": "ComplexPool (Size 65000) - Acquire/Free Single",
+    "hz": 74845010.01631837,
+    "rme": 3.136612466515218,
+    "size": 81,
+    "mean": 1.3360944166912011e-8,
+    "variance": 3.703129527051816e-18
+  },
+  {
+    "suite": "pool",
+    "name": "ComplexPool (Size 1024) - Acquire/Free 1024 (LIFO)",
+    "hz": 93748.3430962964,
+    "rme": 2.631915218298768,
+    "size": 84,
+    "mean": 0.000010666855188819925,
+    "variance": 1.7233906497475097e-12
+  },
+  {
+    "suite": "pool",
+    "name": "ComplexPool (Size 1024) - Acquire/Free 1024 (FIFO)",
+    "hz": 94720.80352994135,
+    "rme": 2.140450971012351,
+    "size": 88,
+    "mean": 0.000010557342872243466,
+    "variance": 1.1697427200746805e-12
+  },
+  {
+    "suite": "pool",
+    "name": "ComplexPool (Size 1024) - Acquire/Free 1024 (Interleaved)",
+    "hz": 55190.380312990776,
+    "rme": 2.3479049826866194,
+    "size": 87,
+    "mean": 0.00001811909963890245,
+    "variance": 4.098655073179105e-12
+  },
+  {
+    "suite": "pool",
+    "name": "ComplexPool (Size 1024) - Acquire 1024 / ReleaseAll",
+    "hz": 93097.60725439532,
+    "rme": 2.6943234199644195,
+    "size": 86,
+    "mean": 0.000010741414623766155,
+    "variance": 1.875032166887761e-12
+  },
+  {
+    "suite": "pool",
+    "name": "SimplePool (Size 1024) - Acquire/Free using Symbol.dispose",
+    "hz": 11738082.544286733,
+    "rme": 3.41707246741044,
+    "size": 78,
+    "mean": 8.519278989793177e-8,
+    "variance": 1.7206657728227637e-16
+  },
+  {
+    "suite": "pool",
+    "name": "ComplexPool (Size 1024) - Acquire/Free using Symbol.dispose",
+    "hz": 10225308.974341393,
+    "rme": 3.9348428066692596,
+    "size": 67,
+    "mean": 9.779655583115615e-8,
+    "variance": 2.582644056010377e-16
+  }
+]
