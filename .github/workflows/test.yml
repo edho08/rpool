@@ -28,3 +28,7 @@ jobs:
       - name: Run test script
         run: npm run test
 
+      - name: Coveralls GitHub Action
+        uses: coverallsapp/github-action@v2.3.0 # Use the version you intend, v2.3.0 is an example
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
