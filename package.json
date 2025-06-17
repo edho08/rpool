@@ -1,6 +1,6 @@
 {
   "name": "rpool",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "A simple and efficient object pool for JavaScript and TypeScript.",
   "type": "module",
   "main": "dist/index.cjs",
