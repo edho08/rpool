@@ -93,7 +93,7 @@ console.log('After processMessage, object is back in the pool.');
 
 ## API
 
-For detailed API documentation, please refer to the generated TypeDoc documentation.
+For detailed API documentation, please refer to the generated TypeDoc documentation at [https://edho08.github.io/rpool/](https://edho08.github.io/rpool/).
 
 Key classes:
 *   `ObjectPool<T>`: The main class for managing the pool.
