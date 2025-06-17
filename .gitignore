@@ -24,3 +24,9 @@ coverage/
 # IDE specific
 .vscode/
 .idea/
+
+# Artifact
+*.tgz
+*.tbz
+*.tbz2
+*.tar
